@@ -1,15 +1,15 @@
-.fieldTile {
+/* .fieldTile {
   width: 48px;
   height: 48px;
   border: 1px solid black;
   background-color: rgb(58, 187, 58);
   float: left;
-}
+} */
 
 .eaten {
-  width: 48px;
+  /* width: 48px;
   height: 48px;
-  border: 1px solid black;
+  border: 1px solid black; */
   background-color: rgb(99, 74, 20);
-  float: left;
+  /* float: left; */
 }

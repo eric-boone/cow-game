@@ -4,15 +4,22 @@ import styles from "./FieldTile.module.css";
 
 function FieldTile(props) {
 
+  // const bacon = () => {
+  //   if (props.props.eatGrass === true && props.props.cowIndex === props.nomnom) {
+  //     return eaten
+  //   }
+  // }
+
   return (
     <div
-      className={
-        props.nomnom === props.props.cowIndex && props.eatGrass === true
-          ? styles.eaten
-          : styles.fieldTile
-      }
+      // className={styles.fieldTile}
+      className={props.styleName}
     >
-      {/* {props.props.cowIndex} */}
+      <small>
+        {/* {props.props.cowIndex} / {props.nomnom} <br /> */}
+        {/* {props.styleName} */}
+      </small>
+      {/* {console.log("eatenArray", eatenArray)} */}
     </div>
   );
 }
