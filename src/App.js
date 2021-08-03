@@ -5,7 +5,6 @@ import Field from "./components/Field/Field";
 import Player from "./components/Player/Player";
 import Controls from "./components/Controls/Controls";
 import Directions from "./components/Directions/Directions";
-// import fieldCords from "./helpers/fieldCords";
 import {
   ef,
   eb,
@@ -37,7 +36,6 @@ function App() {
   useEffect(() => {
     if (cowDirectionsIndex < directionsArray.length) {
       setTimeout(() => {
-        // console.log("thing", directionsArray[cowDirectionsIndex]);
         // handle eat
         if (directionsArray[cowDirectionsIndex] === "eat") {
           setEatGrass(true);
@@ -282,7 +280,10 @@ function App() {
           />
         </div>
         <div className="directions">
-          <Directions directionsArray={directionsArray} />
+          <Directions
+            directionsArray={directionsArray}
+            cowDirectionsIndex={cowDirectionsIndex}
+          />
         </div>
       </div>
       <div className="game-board">

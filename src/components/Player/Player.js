@@ -14,7 +14,6 @@ function Player({cowDirection, cowIndex}) {
   return (
     <div className={styles.cow} style={cowPosition}>
       <p>{cowDirection}</p>
-      {/* {console.log("Player.js cowIndex.y", fieldCords[cowIndex].y)} */}
     </div>
   );
 }

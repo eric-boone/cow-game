@@ -1,0 +1,26 @@
+button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(215, 215, 215);
+}
+
+button:hover {
+  background-color: #75c978;
+  color: white;
+  box-shadow: 0 5px 11px rgba(0, 0, 0, 0.447);
+}
+
+.playButton {
+  color: white;
+  background-color: green;
+}
+
+.warning {
+  background-color: rgb(230, 120, 36);
+}
+
+.warning:hover {
+  background-color: red;
+}

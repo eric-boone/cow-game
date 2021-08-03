@@ -1,16 +1,20 @@
 import React from "react";
 
+import styles from "./Directions.module.css";
+
 function Directions(props) {
-
-  // console.log("props", props);
-
+  // cowDirectionsIndex
+  console.log("props", props);
   return (
     <div>
-      <p>Directions:</p>
-      <div>
-        {props.directionsArray.map((x, index) => (
-          <p key={index}>{x}</p>
-        ))}
+      <h2>Directions:</h2>
+      <div className={styles.directions}>
+        {props.directionsArray.map((instruction, index) => {
+          if (props.cowDirectionsIndex === index) {
+            return <p className={styles.active} key={index}>{instruction}</p>;
+          }
+          return <p key={index}>{instruction}</p>;
+        })}
       </div>
     </div>
   );
