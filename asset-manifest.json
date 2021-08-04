@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cow-game/static/css/main.46f51ceb.chunk.css",
+    "main.js": "/cow-game/static/js/main.d30a84dd.chunk.js",
+    "main.js.map": "/cow-game/static/js/main.d30a84dd.chunk.js.map",
+    "runtime-main.js": "/cow-game/static/js/runtime-main.6c967d4c.js",
+    "runtime-main.js.map": "/cow-game/static/js/runtime-main.6c967d4c.js.map",
+    "static/js/2.5ddabd64.chunk.js": "/cow-game/static/js/2.5ddabd64.chunk.js",
+    "static/js/2.5ddabd64.chunk.js.map": "/cow-game/static/js/2.5ddabd64.chunk.js.map",
+    "index.html": "/cow-game/index.html",
+    "static/css/main.46f51ceb.chunk.css.map": "/cow-game/static/css/main.46f51ceb.chunk.css.map",
+    "static/js/2.5ddabd64.chunk.js.LICENSE.txt": "/cow-game/static/js/2.5ddabd64.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c967d4c.js",
+    "static/js/2.5ddabd64.chunk.js",
+    "static/css/main.46f51ceb.chunk.css",
+    "static/js/main.d30a84dd.chunk.js"
+  ]
+}
