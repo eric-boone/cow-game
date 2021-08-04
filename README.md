@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Cow Game
+
+npm i to install node modules
+npm start to run
+
+cow graphics from https://www.spriters-resource.com/snes/harvestmoon/sheet/31564/
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
