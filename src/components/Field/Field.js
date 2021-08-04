@@ -7,13 +7,15 @@ import styles from "./Field.module.css";
 
 function Field(props) {
   const styleName = styles.fieldTile;
-  // const fieldFill = () => {
-  //   let fieldTiles = [];
-  //   for (let i = 0; i < 100; i++) {
-  //     fieldTiles.push(<FieldTile key={i} props={props} nomnom={i} />);
-  //   }
-  //   return fieldTiles;
-  // };
+  const fieldFill = () => {
+    let fieldTiles = [];
+    for (let i = 0; i < 100; i++) {
+      fieldTiles.push(
+        <FieldTile key={i} styleName={styleName} props={props} nomnom={i} />
+      );
+    }
+    return fieldTiles;
+  };
   const grassEatenArray = [];
 
   if (props.eatGrass === true) {
@@ -25,8 +27,8 @@ function Field(props) {
 
   return (
     <div className={styles.field}>
-      {/* {fieldFill()} */}
-      <FieldTile props={props} styleName={styleName} nomnom={0} />
+      {fieldFill()}
+      {/* <FieldTile props={props} styleName={styleName} nomnom={0} />
       <FieldTile props={props} styleName={styleName} nomnom={1} />
       <FieldTile props={props} styleName={styleName} nomnom={2} />
       <FieldTile props={props} styleName={styleName} nomnom={3} />
@@ -125,7 +127,7 @@ function Field(props) {
       <FieldTile props={props} styleName={styleName} nomnom={96} />
       <FieldTile props={props} styleName={styleName} nomnom={97} />
       <FieldTile props={props} styleName={styleName} nomnom={98} />
-      <FieldTile props={props} styleName={styleName} nomnom={9} />
+      <FieldTile props={props} styleName={styleName} nomnom={9} /> */}
     </div>
   );
 }

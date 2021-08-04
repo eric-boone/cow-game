@@ -3,7 +3,6 @@ import React from "react";
 import styles from "./Directions.module.css";
 
 function Directions(props) {
-  // cowDirectionsIndex
   console.log("props", props);
   return (
     <div>
