@@ -1,7 +1,8 @@
 # Cow Game
 
-npm i to install node modules
-npm start to run
+`npm i` to install node modules
+
+`npm start` to run
 
 cow graphics from https://www.spriters-resource.com/snes/harvestmoon/sheet/31564/
 
