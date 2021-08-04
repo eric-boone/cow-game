@@ -1,5 +1,7 @@
 # Cow Game
 
+demo https://eric-boone.github.io/cow-game/
+
 `npm i` to install node modules
 
 `npm start` to run
